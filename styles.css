@@ -15,11 +15,14 @@ p {
     color: var(--primaryText);
     font-weight: 700;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active {
     text-decoration: underline var(--primaryText);
     text-decoration-thickness: 3px;
     text-underline-offset: 7px;
-    color: var(--primaryText);
+    color: var(--primaryText) !important;
+}
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .navbar li {
     margin-right: 1rem;
@@ -36,6 +39,7 @@ a.nav-link.btn.btn-secondary:hover {
     text-decoration: none;
     color: white;
 }
+
 
 /* Hero Styling */
 .hero {
