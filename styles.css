@@ -7,7 +7,9 @@
 body {
     color: var(--primaryText);
 }
-
+p {
+    color: var(--secondaryText);
+}
 /* Navbar Styling */
 .navbar-light .navbar-nav .nav-link {
     color: var(--primaryText);
@@ -40,5 +42,13 @@ a.nav-link.btn.btn-secondary:hover {
     padding: 4rem 2rem;
 }
 .hero p, .hero .small {
-    color: var(--secondaryText)
+    color: var(--secondaryText);
+}
+/* Pet Advice Section Styling */
+
+.card-deck .card .card-img-top {
+    border-radius: 0px;
+}
+.card:hover .stretched-link::after{
+    background-color: rgba(102,153,204,0.3);
 }
