@@ -1,0 +1,12 @@
+:root {
+    --primaryText: #003B6D;
+    --primaryColor: #6699CC;
+    --secondaryText: #676767;
+    --secondaryColor: #BDBDBD;
+}
+body {
+    color: var(--primaryText);
+}
+a.navbar-light  {
+    color: red;
+}
