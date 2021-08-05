@@ -46,9 +46,21 @@ a.nav-link.btn.btn-secondary:hover {
 }
 /* Pet Advice Section Styling */
 
-.card-deck .card .card-img-top {
+.card-deck .card .card-img-top, .card {
     border-radius: 0px;
 }
+
 .card:hover .stretched-link::after{
     background-color: rgba(102,153,204,0.3);
+}
+/* Adopt Section */
+.adopt {
+    background-color: rgba(189, 189, 189, .2);
+}
+.adopt ul {
+    padding-left: 1rem;
+}
+.adopt ul a {
+    color: var(--secondaryText);
+    line-height: 2;
 }
