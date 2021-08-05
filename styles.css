@@ -7,6 +7,9 @@
 body {
     color: var(--primaryText);
 }
+p {
+    font-size: 16px;
+}
 /* Navbar Styling */
 .navbar-light .navbar-nav .nav-link {
     color: var(--primaryText);
@@ -31,4 +34,8 @@ a.nav-link.btn.btn-secondary:hover {
     background-color: var(--secondaryColor);
     border: none;
     text-decoration: none;
+}
+.hero {
+    background-color: var(--secondaryColor);
+    padding: 4rem 2rem;
 }
