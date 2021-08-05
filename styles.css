@@ -24,16 +24,17 @@ p {
 .navbar li {
     margin-right: 1rem;
 }
- .btn-secondary {
+ .btn-secondary, a.nav-link.btn.btn-secondary {
     background-color: var(--primaryColor);
     color: white;
     border: none;
     border-radius: 0px;
 }
 a.nav-link.btn.btn-secondary:hover {
-    background-color: var(--secondaryColor);
+    background-color: var(--secondaryText);
     border: none;
     text-decoration: none;
+    color: white;
 }
 
 /* Hero Styling */
@@ -64,4 +65,7 @@ a.nav-link.btn.btn-secondary:hover {
     color: var(--secondaryText);
     line-height: 2;
 }
-/* Contact Us */
+/* footer */
+footer {
+    background-color: rgba(189, 189, 189, .2);
+}
