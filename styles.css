@@ -7,6 +7,28 @@
 body {
     color: var(--primaryText);
 }
-a.navbar-light  {
-    color: red;
+/* Navbar Styling */
+.navbar-light .navbar-nav .nav-link {
+    color: var(--primaryText);
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: underline var(--primaryText);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    color: var(--primaryText);
+}
+.navbar li {
+    margin-right: 1rem;
+}
+ .btn-secondary {
+    background-color: var(--primaryColor);
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+a.nav-link.btn.btn-secondary:hover {
+    background-color: var(--secondaryColor);
+    border: none;
+    text-decoration: none;
 }
