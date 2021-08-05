@@ -37,7 +37,7 @@ a.nav-link.btn.btn-secondary:hover {
     background-color: var(--secondaryText);
     border: none;
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 
 
