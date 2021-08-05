@@ -7,9 +7,7 @@
 body {
     color: var(--primaryText);
 }
-p {
-    font-size: 16px;
-}
+
 /* Navbar Styling */
 .navbar-light .navbar-nav .nav-link {
     color: var(--primaryText);
@@ -35,7 +33,12 @@ a.nav-link.btn.btn-secondary:hover {
     border: none;
     text-decoration: none;
 }
+
+/* Hero Styling */
 .hero {
-    background-color: var(--secondaryColor);
+    background-color: rgba(189, 189, 189, .2);
     padding: 4rem 2rem;
+}
+.hero p, .hero .small {
+    color: var(--secondaryText)
 }
