@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Paradigm Pet Professionals</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Paradigm CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-white px-4">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo-ppp.png" height="50px" alt="Paradigm Pet Professionals logo">
+        </a>
+        <!-- Hamburger Menu Toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerMenu"
+            aria-controls="hamburgerMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="hamburgerMenu">
+            <!-- Navigation Menu -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cats.html">Cats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dogs.html">Dogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="small-animals.html">Small Animals</a>
+                </li>
+
+                <a class="nav-link btn btn-secondary" href="contact.html">Contact Us</a>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- Contact Us Intro -->
+    <section class="container-fluid mt-1 hero">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-4">
+                <p class="small mb-1"><b>Contact Us</b></p>
+                <h1 class="mb-4">We are happy to help you navigate the adoption process!</h1>
+
+                <p> We will guide you through each step in the process from determining which type of pet is best suited
+                    for your family and home environment, to completing the necessary paperwork, to bringing your new
+                    loved one home. </p>
+                <p> Please fill out our contact form to request a consultation. We will contact you
+                    within 48 hours to schedule a consultation. <b> All fields are required.</b></p>
+                <!-- Form -->
+
+                <form class="pt-4">
+                    <h2>Owner Info</h2>
+                    <div class="form-group">
+                        <label for="name">First and last name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name" required>
+                        <label for="phone">Phone number</label>
+                        <input type="tel" class="form-control" id="phone" aria-describedby="phone" required>
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            required>
+                        <label for="name">Your time zone</label>
+                        <input type="text" class="form-control" id="timezone" aria-describedby="timezone">
+                    </div>
+                    <h2>Pet Info</h2>
+                    <div class="form-group">
+                        <label for="petName">Your pet's name</label>
+                        <input type="text" class="form-control" id="petName" aria-describedby="petName" required>
+                        <label for="petType">Pet type</label>
+                        <input type="text" class="form-control" id="petType" aria-describedby="petType" required>
+                        <label for="petAge">Pet age</label>
+                        <input type="text" class="form-control" id="petAge" aria-describedby="petAge" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="row form-owner justify-content-center">
+
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="row py-3 px-2 justify-content-between align-items-end">
+            <div class="col-sm-2">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-ppp.png" height="50px" alt="Paradigm Pet Professionals logo">
+                </a>
+            </div>
+            <p class="col-sm-2">Copyright © 2021</p>
+        </div>
+
+    </footer>
+    <!-- Bootstrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
