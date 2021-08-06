@@ -21,9 +21,7 @@ p {
     text-underline-offset: 7px;
     color: var(--primaryText) !important;
 }
-nav {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
+
 .navbar li {
     margin-right: 1rem;
 }
@@ -72,4 +70,8 @@ a.nav-link.btn.btn-secondary:hover {
 /* footer */
 footer {
     background-color: rgba(189, 189, 189, .2);
+}
+/* Article Styling */
+.article li {
+    color: var(--secondaryText);
 }
